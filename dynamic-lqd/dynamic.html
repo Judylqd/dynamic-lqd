@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dynamic.css">
+	<script type="text/javascript" src="dynamic.js"></script>
+</head>
+<body>
+
+<!--头部：登录、注册部分-->
+<div class="head">
+	<div class="green"></div>
+	<span class="enter" id="loginbg"><a href="#">登录</a></span>
+	<span class="login"><a href="#">注册</a></span>
+</div>
+
+<!-- 整个界面变灰 -->
+<div class="hidebg" id="backgr" ></div>
+
+<!--轮播-->
+<div id="container">
+	<div id="pic">
+		<img src="">
+		<ul></ul>
+		<a href="javascript:;" class="arrow" id="prev">&lt;</a>
+		<a href="javascript:;" class="arrow" id="next">&gt;</a>
+	</div>
+
+	<!-- 弹出的登录界面 -->
+     <div class="hide" id="login">
+    	<div class="boder_p">
+    		<strong>登录</strong>
+    	</div>
+    	<div class="back" id="drowbackx">
+    		<strong>X</strong>
+    	</div>
+		<form action="#"> 
+		账号 <input id="account" type="text" name="账号"><br><br>
+		密码 <input id="password" type="text" name="密码"><br><br>
+		</form>
+		<div class="boder" id="drowbackBoder">
+			<a href="#"><p>登录</p></a>
+		</div>
+	</div>
+</div>
+
+<!-- 底部搜索 -->
+<div class="footer">
+	<div class="search">
+		<form>
+			<input id="test" style="width:100%; height:25px" type="text" name="搜索">
+		</form>	
+	</div>
+	<div class="look"  > 
+		<div class="look1" id="btn">
+			<a href="#"><span>搜索</span></a>
+		</div>	
+	</div>  
+	<div style="border:2px solid #b1ce18" class="block">
+		<div id="content">
+			<ul id="ul"></ul>
+		</div>
+		<div class="block1">
+			<div class="block2"><strong>热门高校</strong></div>
+		</div>
+	</div>
+	
+	<div class="statement">
+		<div class="hr">
+			<hr width="100%" />
+		</div>
+		<div class="span">
+			<p>版权所有|重庆邮电大学|重庆市南岸区崇文路2号|400065|渝ICP：10005091-2</p><br/>
+			<p>渝公网安备50010802001309号</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
